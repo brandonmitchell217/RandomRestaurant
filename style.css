@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rdmBtn {
+  position: absolute;
+  top: 30px;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  font-family: monospace;
+  border: none;
+  background: #000;
+  color: orange;
+  border-radius: 30px;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 6px orange);
+  box-shadow: inset 0 0 6px orange;
+  transition: all 0.3s ease-in-out;
+}
+
+#rdmBtn:hover {
+  color: #000;
+  background: orange;
+}
+
+.display {
+  font-family: 'Cinzel';
+  font-size: 4rem;
+  color: orange;
+  text-shadow: 0 0 1px #333, 1px 1px 1px #333, 1px 0 1px #333, 0 1px 1px #333,
+    -1px -1px 1px #333, -1px 0 1px #333, 0 -1px 1px #333, 0 3px 8px orange;
+}
