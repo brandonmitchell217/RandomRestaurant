@@ -10,6 +10,8 @@ const restArray = [
   'Chilis',
   'Lucky 7',
   'Wegmans',
+  'Szechuan Garden',
+  'City Barbeque',
 ]
 const clickButton = document.getElementById('rdmBtn')
 const display = document.querySelector('.display')
